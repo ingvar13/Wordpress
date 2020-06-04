@@ -1,0 +1,171 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  font: 400 14px/1 'Lato', sans-serif;
+  margin: 0;
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+}
+
+button{
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  padding: 0;
+}
+
+p, h1, h2, h3, h4, h5{
+  margin: 0;
+}
+
+.d__flex{
+  display: flex;
+}
+
+.align__items_center{
+  align-items: center;
+}
+
+.justify__content_center{ 
+  justify-content: center;
+}
+
+.justify__content_between{
+  justify-content: space-between;
+}
+
+.container{
+  max-width: 1114px;
+  padding: 0 15px;
+  margin: auto;
+}
+
+.btn{
+  font-family: 'PT Sans', 'sans-serif';
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.333;
+  padding: 16px 30px;
+}
+.btn__defoult{
+  background-color: #fff;
+  box-shadow: 0px 4px 20px #0F064C;
+  color: #0f064c;
+}
+
+.header{
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+
+  padding: 40px 0;
+}
+
+.main__header_nav{
+  color: #fff;
+  font-weight: 700; 
+  margin-left: 66px;
+}
+
+.main__header_nav a + a, .info__header_nav a + a{
+  margin-left: 30px;
+}
+
+.info__header_nav{
+  color: rgba(255, 255, 255, 0.8);
+  margin-left: auto;
+}
+
+.inner{
+  height: 100vh;
+  min-height: 960px;
+  background: linear-gradient(89.79deg, #23196F 0.13%, #180D5B 99.88%);
+  padding-top: 106px;
+}
+
+.innner__call__to_action{ 
+  position: relative;
+  max-width: 545px;
+}
+
+.innner__call__to_action::after{
+  content: '';
+  width: 738px;
+  height: 611px;
+  background: url('../img/bg.png') no-repeat;
+  position: absolute;
+  top:-60px;
+  right: -650px;
+  z-index: 0;
+}
+
+.call__to__action_title{
+  font-size: 48px;
+  font-weight: 700;
+  color: #fff;
+  line-height: 1.29;
+  margin-bottom: 20px;
+  position: relative;
+  z-index: 1;
+}
+
+.call__to__action_descr{
+  max-width: 390px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.33;
+  margin-bottom: 55px;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.call__to__action_descr span{
+  color: #36a7b9;
+  font-weight: 700;
+}
+
+.test__your_email{
+  display: inline-block;
+}
+
+.email__not_required{
+  margin-top: 15px;
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 14px;
+}
+
+.email__not_required span{
+  margin-left: 15px;
+}
+
+.inner__servisec_wrap{
+  margin-top: 150px;
+}
+
+.inner__servisec_title{
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.29;
+  color: #fff;
+  margin-bottom: 39px;
+  max-width: 365px;
+}
+
+.inner__servisec_list_item{
+  width: 164px;
+  height: 164px;
+  background-color: rgba(15, 6, 76, 0.45);
+  cursor: pointer;
+}
+
+.inner__servisec_list_item + .inner__servisec_list_item{
+  margin-left: 15px;
+}
+
+.inner__servisec_list_item:hover{
+  background-color: #fff;
+}
